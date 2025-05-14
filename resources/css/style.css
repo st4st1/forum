@@ -1,0 +1,79 @@
+.test{
+    background-position: center center;
+    background-image:url('/public/photo/glavnay.jpg');
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+html{
+    width: 70%;
+    margin: auto;
+}
+
+.button{
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+}
+
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post{
+    display: inline-block;
+    width: 30%;
+    overflow-wrap: break-word;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+    
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #b2dfdb; 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .user-table th {
+    background-color: #9b9b9b; 
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #c2c2c2; 
+  }
+  
+  .user-table tr:hover {
+    background-color: #dbdbdb; 
+  }
+
+
+
+
+
+
